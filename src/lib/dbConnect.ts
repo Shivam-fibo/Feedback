@@ -9,7 +9,7 @@ type ConnectionObject = {
 const connetion : ConnectionObject = {}
 
 
-async function dbConnect () : Promise<void> {
+export async function dbConnect () : Promise<void> {
 
     // first check ki databse conneted hai kya?
 
